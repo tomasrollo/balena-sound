@@ -1,4 +1,52 @@
 - commits:
+    - subject: 'docs: fix some typos'
+      hash: e3712e960108bf5859487d8bca05a3e67bc5f8d3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Roddie Hasan
+      nested: []
+    - subject: 'spotify: Add option to disable Spotify''s audio cache'
+      hash: 7d5eac323c83acdfc0f65d336677963e4c692acc
+      body: |
+        minor logic fix to variable check
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Roddie Hasan
+      nested: []
+    - subject: 'docs: Document SOUND_SPOTIFY_DISABLE_CACHE option'
+      hash: f1d01bd7f92552a9416402ed6621a27d27061ad8
+      body: >
+        Documenting the SOUND_SPOTIFY_DISABLE_CACHE option submitted with PR
+        #369.
+      footer:
+        Connects-to: '#367'
+        connects-to: '#367'
+        Change-type: patch
+        change-type: patch
+      author: Roddie Hasan
+      nested: []
+    - subject: 'spotify: Add option to disable Spotify''s audio cache'
+      hash: 34a0bd84687078d98dc92d97dab0132cffd11d0e
+      body: >
+        This feature allows the user to disable Spotify's audio cache by setting
+        the SOUND_SPOTIFY_DISABLE_CACHE environment variable. The cache is
+        enabled by default without a size limit and is filling microSD cards in
+        some cases, causing issues.
+      footer:
+        Connects-to: '#367'
+        connects-to: '#367'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Roddie Hasan <roddie@krweb.net>
+        signed-off-by: Roddie Hasan <roddie@krweb.net>
+      author: Roddie Hasan
+      nested: []
+  version: 3.4.6
+  date: 2021-01-01T18:20:31.887Z
+- commits:
     - subject: 'docs: change to svg deploy with balena button'
       hash: 3c341465bb403748b9bfdfd6e26221c0f273803d
       body: |
