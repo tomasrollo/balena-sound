@@ -1,4 +1,22 @@
 - commits:
+    - subject: 'upnp: Use gmrender-resurrect in place of gmrender'
+      hash: 78b9cc58a1f1000f9eb635c12b6fd32192a05e0c
+      body: |
+        Ubuntu packages
+            https://github.com/hzeller/gmrender-resurrect
+        an updated more stable fork of gmrender
+      footer:
+        Connects-to: '#342'
+        connects-to: '#342'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: jody@gnome.org
+        signed-off-by: jody@gnome.org
+      author: Jody Goldberg
+      nested: []
+  version: 3.4.8
+  date: 2021-01-20T13:22:25.816Z
+- commits:
     - subject: Add --hostID arg to Snapcast client startup
       hash: 31e4ae725e41075f1d97d8c10ad5c8f6757cc1ec
       body: ''
