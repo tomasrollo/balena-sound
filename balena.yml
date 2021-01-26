@@ -8,10 +8,11 @@ assets:
   - url: "https://raw.githubusercontent.com/balenalabs/balena-sound/master/logo.png"
     name: "logo"
 data:
-  description: "Build a single or multi-room streamer for an existing audio device using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect"
+  description: "A simplified multiroom snapcast client for Raspberry Pi"
   applicationEnvironmentVariables:
-    - SOUND_VOLUME: 75
+    - SOUND_VOLUME: 100
     - AUDIO_OUTPUT: 'AUTO'
+    - SOUND_SNAPCAST: 192.168.1.10
   defaultDeviceType: "raspberry-pi"
   supportedDeviceTypes:
     - "raspberry-pi"
