@@ -2,13 +2,6 @@ version: '2'
 
 services:
 
-  # Core services
-#  audio:
-#    build: ./core/audio
-#    privileged: true
-#    ports:
-#      - 4317:4317
-
   multiroom-client:
     build: ./core/multiroom/client
     privileged: true
